@@ -67,7 +67,7 @@ const Home = () => {
     <div className="px-10 text-center lg:pt-15 ">
     <h1 className='lg:text-[50px] text-[24px] text-white font-bold font-main'>HELLO SIR</h1>
    </div>
-    <div className="flex px-10">
+    <div className="flex lg:px-10">
       <div className="w-1/3">
       
       </div>
