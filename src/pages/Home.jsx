@@ -63,7 +63,7 @@ const Home = () => {
 ];
   return (
    <>
-   <div className="lg:h-[650px] h-screen">
+   <div className="lg:h-[650px] h-[400px]">
     <div className="px-10 text-center lg:pt-15 ">
     <h1 className='lg:text-[50px] text-[24px] text-white font-bold font-main'>HELLO SIR</h1>
    </div>

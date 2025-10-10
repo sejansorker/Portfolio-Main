@@ -8,7 +8,7 @@ import { CiLocationOn } from "react-icons/ci";
 import { Link } from 'react-router-dom'
 const Contact = () => {
   return (
-    <div className='p-10'>
+    <div className='lg:p-10 p-5'>
         <Container>
       <div className="relative h-[600px] w-full">
           <Globe />
