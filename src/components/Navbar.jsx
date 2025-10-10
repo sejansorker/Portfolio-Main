@@ -85,9 +85,9 @@ const Navbar = () => {
               </h1>
             )}
           </div>
-          <div className="lg:w-2/3 w-full lg:static fixed bottom-0 bg-red-500  left-0  z-50 m-0 p-0">
+          <div className="lg:w-2/3 w-full lg:static fixed bottom-0 left-0 z-50 m-0 p-0">
             <div className="flex lg:justify-end justify-center">
-              <ul className='flex lg:gap-x-8 gap-x-5 bg-[rgba(27,27,27)] lg:bg-[rgba(137,137,137,0.11)] lg:py-6 py-3 lg:px-20 px-[51px] lg:rounded-tr-[30px] lg:rounded-bl-[30px]'>
+              <ul className='flex lg:gap-x-8 gap-x-5 bg-[rgba(27,27,27)] lg:bg-[rgba(137,137,137,0.11)] lg:py-6 py-10 lg:px-20 px-[51px] lg:rounded-tr-[30px] lg:rounded-bl-[30px]'>
                 <Link to="/"><li className={`font-semibold font-main lg:text-[16px] text-[12px] ${path === "/" ? "text-yellow-500" : "text-white"}`}>Home</li></Link>
                 <Link to="/about"><li className={`font-semibold font-main lg:text-[16px] text-[12px] ${path === "/about" ? "text-yellow-500" : "text-white"}`}>About</li></Link>
                 <Link to="/resume"><li className={`font-semibold font-main lg:text-[16px] text-[12px] ${path === "/resume" ? "text-yellow-500" : "text-white"}`}>Resume</li></Link>
