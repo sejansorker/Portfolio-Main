@@ -63,7 +63,7 @@ const Home = () => {
 ];
   return (
    <>
-   <div className="lg:h-[650px] h-[400px]">
+   <div className="lg:h-[650px] h-screen">
     <div className="px-10 text-center lg:pt-15 ">
     <h1 className='lg:text-[50px] text-[24px] text-white font-bold font-main'>HELLO SIR</h1>
    </div>
@@ -72,7 +72,7 @@ const Home = () => {
       
       </div>
       <div className="lg:w-1/3 w-full">
-      <div className=' flex justify-center lg:items-center relative mt-[-50px] lg:mt-0'>
+      <div className=' flex justify-center lg:items-center relative mt-[0px] lg:mt-0'>
       <IconCloud  images={images} />
     </div></div>
       <div className="w-1/3"></div>

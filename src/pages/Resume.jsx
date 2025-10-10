@@ -67,7 +67,7 @@ const Resume = () => {
         </div>
          </div>
        </div>
-       <div className="lg:mt-15 mt-5 lg:mb-0 mb-10">
+       <div className="lg:mt-15 mt-5 lg:pb-0 pb-10">
         <h2 className='text-center text-[30px] text-white font-bold font-main border-b-4 border-amber-300 w-fit mx-auto'> My Skills</h2>
         <div className="lg:px-10 px-5 flex flex-wrap lg:gap-x-0 gap-x-2 lg:justify-between gap-y-5 py-10">
           <div className="lg:w-[24%] w-[31%] lg:h-60 h-30 bg-[#708993] rounded-[20px] text-center py-2 lg:py-10">
