@@ -6,11 +6,11 @@ const About = () => {
   return (
     <Container>
       <div className="overflow-hidden ">
-        <div className="px-10">
-          <p className='font-main font-normal text-[16px] pt-5 pb-10 text-[#ffffffa4]'>My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.</p>
-          <h2 className='font-main font-bold text-[30px]  pb-10 text-[#ffffff]'>What i'm doing</h2>
-          <div className="flex flex-wrap justify-between gap-y-10">
-            <div className="flex w-[48%] p-7  bg-[rgba(137,137,137,0.11)] rounded-[20px] shadow-[5_15px_15px_rgba(27,27,27,0.92)]">
+        <div className="lg:px-10 px-5">
+          <p className='font-main font-normal lg:text-[16px] text-[12px] pt-2 lg:pt-5 pb-5 lg:pb-10 text-[#ffffffa4]'>My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.</p>
+          <h2 className='font-main font-bold lg:text-[30px] text-[18px] lg:pb-10 pb-5 text-[#ffffff]'>What i'm doing</h2>
+          <div className="flex flex-wrap justify-between lg:gap-y-10 gap-y-5">
+            <div className="flex w-full lg:w-[48%] p-4 lg:p-7  bg-[rgba(137,137,137,0.11)] rounded-[20px] shadow-[5_15px_15px_rgba(27,27,27,0.92)]">
               <div className="">
                 <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path opacity="0.15" fill-rule="evenodd" clip-rule="evenodd" d="M40.6377 19.814C40.4183 19.7228 40.1658 19.7732 39.9978 19.9416L38.2394 21.7057V9.71161C38.2394 9.38628 37.9766 9.12261 37.6523 9.12261H33.1413L34.7788 7.47985L34.7795 7.47906L36.3573 5.89617C36.6954 5.55704 36.8816 5.10591 36.8816 4.62624C36.8816 4.14658 36.6954 3.6956 36.3573 3.35631L34.5328 1.52591C34.1948 1.18677 33.7451 1 33.2669 1C32.7888 1 32.3392 1.18677 32.0011 1.52591L30.4225 3.10958L28.515 5.02322L24.4288 9.12254H6.2047V3.29564C6.2047 2.9703 5.94181 2.70665 5.61759 2.70665C3.07149 2.70681 1 4.7848 1 7.33924V32.3559C1 32.3994 1.005 32.4417 1.01391 32.4825C1.095 33.5664 1.56242 34.5734 2.3436 35.3379C3.1786 36.1549 4.28087 36.6048 5.44743 36.6048H23.3879L20.0091 39.9946C19.8412 40.163 19.791 40.4162 19.8818 40.6364C19.9727 40.8565 20.1868 41 20.4243 41H40.413C40.7372 41 41.0001 40.7364 41.0001 40.411V20.3582C41.0001 20.12 40.857 19.9052 40.6377 19.814ZM32.8315 2.35897C33.0715 2.11804 33.4626 2.11804 33.7026 2.35897L35.5272 4.18945C35.7673 4.4303 35.7673 4.82242 35.5272 5.06335L34.3638 6.23053L31.668 3.52615L32.8315 2.35897ZM30.8377 4.35913L33.5334 7.06343L32.4562 8.14417L29.7606 5.43987L30.8377 4.35913ZM18.3967 21.76L16.715 22.3556L15.5945 21.2315L16.1882 19.5444L18.3967 21.76ZM35.8293 30.1707L30.1707 35.8293C30.1077 35.8923 30.1523 36 30.2414 36H36V30.2414C36 30.1523 35.8923 30.1077 35.8293 30.1707ZM16 18.5L19.5 22L32.5 9L29 5.5L16 18.5Z" fill="url(#paint0_linear)" />
@@ -41,11 +41,11 @@ const About = () => {
                 </svg>
               </div>
               <div className="pl-5">
-                <h4 className='text-white text-[20px] font-bold font-main'>Web design</h4>
-                <h5 className='text-[#ffffffb6] pt-[1px] font-main font-normal text-[14px]'>The most modern and high-quality design made at a professional level.</h5>
+                <h4 className='text-white lg:text-[20px] text-[16px] font-bold font-main'>Web design</h4>
+                <h5 className='text-[#ffffffb6] pt-[1px] font-main font-normal lg:text-[14px] text-[12px]'>The most modern and high-quality design made at a professional level.</h5>
               </div>
             </div>
-            <div className="flex w-[48%] p-7  bg-[rgba(137,137,137,0.11)] rounded-[20px] shadow-[5_15px_15px_rgba(27,27,27,0.92)]">
+            <div className="flex w-full lg:w-[48%] p-4 lg:p-7  bg-[rgba(137,137,137,0.11)] rounded-[20px] shadow-[5_15px_15px_rgba(27,27,27,0.92)]">
               <div className="">
 
                 <svg width="40" height="32" viewBox="0 0 40 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -105,11 +105,11 @@ const About = () => {
 
               </div>
               <div className="pl-5">
-                <h4 className='text-white text-[20px] font-bold font-main'>Web development</h4>
-                <h5 className='text-[#ffffffb6] pt-[1px] font-main font-normal text-[14px]'>High-quality development of sites at the professional level.</h5>
+                <h4 className='text-white lg:text-[20px] text-[16px] font-bold font-main'>Web development</h4>
+                <h5 className='text-[#ffffffb6] pt-[1px] font-main font-normal lg:text-[14px] text-[12px]'>High-quality development of sites at the professional level.</h5>
               </div>
             </div>
-            <div className="flex w-[48%] p-7  bg-[rgba(137,137,137,0.11)] rounded-[20px] shadow-[5_15px_15px_rgba(27,27,27,0.92)]">
+            <div className="flex w-full lg:w-[48%] p-4 lg:p-7  bg-[rgba(137,137,137,0.11)] rounded-[20px] shadow-[5_15px_15px_rgba(27,27,27,0.92)]">
               <div className="">
                 <svg width="42" height="32" viewBox="0 0 42 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path opacity="0.15" fill-rule="evenodd" clip-rule="evenodd" d="M1.5 6.89825C1.5 5.79369 2.39543 4.89825 3.5 4.89825H38.3C39.4046 4.89825 40.3 5.79369 40.3 6.89825V27.8871C40.3 28.9917 39.4046 29.8871 38.3 29.8871H24.2108C28.4393 28.5311 31.5 24.5686 31.5 19.8916C31.5 14.0952 26.799 9.39625 21 9.39625C15.201 9.39625 10.5 14.0952 10.5 19.8916C10.5 24.5686 13.5607 28.5311 17.7892 29.8871H3.5C2.39543 29.8871 1.5 28.9917 1.5 27.8871V6.89825ZM21 24.8894C23.7614 24.8894 26 22.6518 26 19.8916C26 17.1314 23.7614 14.8938 21 14.8938C18.2386 14.8938 16 17.1314 16 19.8916C16 22.6518 18.2386 24.8894 21 24.8894Z" fill="url(#paint0_linear)" />
@@ -158,39 +158,39 @@ const About = () => {
                 </svg>
               </div>
               <div className="pl-5">
-                <h4 className='text-white text-[20px] font-bold font-main'>Photography</h4>
-                <h5 className='text-[#ffffffb6] pt-[1px] font-main font-normal text-[14px]'>I make high-quality photos of any category at a professional level.</h5>
+                <h4 className='text-white lg:text-[20px] text-[16px] font-bold font-main'>Photography</h4>
+                <h5 className='text-[#ffffffb6] pt-[1px] font-main font-normal lg:text-[14px] text-[12px]'>I make high-quality photos of any category at a professional level.</h5>
               </div>
             </div>
-            <div className="flex w-[48%] p-7  bg-[rgba(137,137,137,0.11)] rounded-[20px] shadow-[5_15px_15px_rgba(27,27,27,0.92)]">
+            <div className="flex w-full lg:w-[48%] p-4 lg:p-7 bg-[rgba(137,137,137,0.11)] rounded-[20px] shadow-[5_15px_15px_rgba(27,27,27,0.92)]">
               <div className="">
                <MdOutlineSportsCricket className='text-amber-300 text-[39px]' />
               </div>
               <div className="pl-5">
-                <h4 className='text-white text-[20px] font-bold font-main'>Sports</h4>
-                <h5 className='text-[#ffffffb6] pt-[1px] font-main font-normal text-[14px]'>The most modern and high-quality design made at a professional level.</h5>
+                <h4 className='text-white lg:text-[20px] text-[16px] font-bold font-main'>Sports</h4>
+                <h5 className='text-[#ffffffb6] pt-[1px] font-main font-normal lg:text-[14px] text-[12px]'>The most modern and high-quality design made at a professional level.</h5>
               </div>
             </div>
           </div>
-          <h2 className='font-main font-bold text-[30px]  pt-10 pb-15 text-[#ffffff]'>Testimonials</h2>
-         <div className="flex justify-between">
-           <div className="w-[48%] relative rounded-[20px] bg-[rgba(137,137,137,0.11)] shadow-[5_15px_15px_rgba(27,27,27,0.92)] py-5 mb-10 px-5">
+          <h2 className='font-main font-bold lg:text-[30px] text-[22px] lg:pt-10 lg:pb-15 pt-5 pb-9 text-[#ffffff]'>Testimonials</h2>
+         <div className="lg:flex justify-between lg:mb-0 mb-20">
+           <div className="lg:w-[48%] w-full relative rounded-[20px] bg-[rgba(137,137,137,0.11)] shadow-[5_15px_15px_rgba(27,27,27,0.92)] py-5 mb-10 px-5">
             
             <div className=" ">
-              <h3 className='text-white text-[20px] font-main font-bold pl-20'>Razibur Rohoman</h3>
-              <p className='text-[#ffffffa5] text-[13px] pt-2 font-main font-normal'>Sejan was hired to create a corporate identity. We were very pleased with the work done. </p>
+              <h3 className='text-white lg:text-[20px] text-[16px] font-main font-bold lg:pl-20 pl-15'>Razibur Rohoman</h3>
+              <p className='text-[#ffffffa5] lg:text-[13px] text-[11px] pt-2 font-main font-normal'>Sejan was hired to create a corporate identity. We were very pleased with the work done. </p>
             </div>
-           <div className="bg-[rgba(137,137,137,0.97)] absolute top-[-25px] left-[15px] w-18 rounded-[20px] ">
+           <div className="bg-[rgba(137,137,137,0.97)] absolute lg:top-[-25px] top-[-12px] left-[15px] lg:w-18 w-13 lg:rounded-[20px] rounded-[10px]">
                 <img src={Sir} alt="" />
             </div>
           </div>
-           <div className="w-[48%] relative rounded-[20px] bg-[rgba(137,137,137,0.11)] shadow-[5_15px_15px_rgba(27,27,27,0.92)] py-5 mb-10 px-5">
+           <div className="lg:w-[48%] w-full relative rounded-[20px] bg-[rgba(137,137,137,0.11)] shadow-[5_15px_15px_rgba(27,27,27,0.92)] py-5 mb-10 px-5">
             
             <div className=" ">
-              <h3 className='text-white text-[20px] font-main font-bold pl-20'>Sohel Rana</h3>
-              <p className='text-[#ffffffa5] text-[13px] pt-2 font-main font-normal'>Sejan was hired to create a corporate identity. We were very pleased with the work done. </p>
+              <h3 className='text-white lg:text-[20px] text-[16px] font-main font-bold lg:pl-20 pl-15'>Sohel Rana</h3>
+              <p className='text-[#ffffffa5] lg:text-[13px] text-[11px] pt-2 font-main font-normal'>Sejan was hired to create a corporate identity. We were very pleased with the work done. </p>
             </div>
-           <div className="bg-[rgba(137,137,137,0.97)] absolute top-[-25px] left-[15px] w-18 rounded-[20px] ">
+           <div className="bg-[rgba(137,137,137,0.97)] absolute lg:top-[-25px] top-[-12px] left-[15px] lg:w-18 w-13 lg:rounded-[20px] rounded-[10px] ">
                 <img src={Sir} alt="" />
             </div>
           </div>

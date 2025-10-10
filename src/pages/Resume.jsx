@@ -13,7 +13,7 @@ const Resume = () => {
   return (
    <>
    <Container>
-       <div className="px-10 mt-5">
+       <div className="lg:px-10 px-5 mt-5">
         <div className="flex gap-5 items-center">
           <div className="h-8 w-8 rounded-[5px] border-1 border-[#F8D568] text-amber-300 flex justify-center items-center">
           <FaBookOpen />
@@ -67,40 +67,40 @@ const Resume = () => {
         </div>
          </div>
        </div>
-       <div className="mt-15">
+       <div className="lg:mt-15 mt-5 lg:mb-0 mb-10">
         <h2 className='text-center text-[30px] text-white font-bold font-main border-b-4 border-amber-300 w-fit mx-auto'> My Skills</h2>
-        <div className="px-10 flex flex-wrap justify-between gap-y-5 py-10">
-          <div className="w-[24%] bg-[#708993] rounded-[20px] text-center py-10">
-            <img className='h-25 w-25 mx-auto' src={Html} alt="" />
-            <h4 className='text-white text-[16px] font-main font-semibold pt-2'>HTML5</h4>
+        <div className="lg:px-10 px-5 flex flex-wrap lg:gap-x-0 gap-x-2 lg:justify-between gap-y-5 py-10">
+          <div className="lg:w-[24%] w-[31%] lg:h-60 h-30 bg-[#708993] rounded-[20px] text-center py-2 lg:py-10">
+            <img className='lg:h-25  lg:w-25 h-20 w-20  mx-auto' src={Html} alt="" />
+            <h4 className='text-white lg:text-[16px] text-[12px] font-main font-semibold lg:pt-5 pt-1'>HTML5</h4>
           </div>
-          <div className="w-[24%] bg-[#708993] rounded-[20px] text-center py-10">
-            <img className='h-25 w-25 mx-auto' src={Css} alt="" />
-            <h4 className='text-white text-[16px] font-main font-semibold pt-2'>CSS</h4>
+          <div className="lg:w-[24%] w-[31%] lg:h-60 h-30 bg-[#708993] rounded-[20px] text-center py-2 lg:py-10">
+            <img className='lg:h-25  lg:w-25 h-20 w-20 mx-auto' src={Css} alt="" />
+            <h4 className='text-white lg:text-[16px] text-[12px] font-main font-semibold lg:pt-5 pt-1'>CSS</h4>
           </div>
-          <div className="w-[24%] bg-[#708993] rounded-[20px] text-center py-10">
-            <img className='h-25 w-25 mx-auto' src={Boot} alt="" />
-            <h4 className='text-white text-[16px] font-main font-semibold pt-2'>BOOTSTRAP5.3</h4>
+          <div className="lg:w-[24%] w-[31%] lg:h-60 h-30 bg-[#708993] rounded-[20px] text-center py-2 lg:py-10">
+            <img className='lg:h-25  lg:w-25 rounded-[10px] h-20 w-20 mx-auto' src={Boot} alt="" />
+            <h4 className='text-white lg:text-[16px] text-[12px] font-main font-semibold lg:pt-5 pt-1'>BOOTSTRAP5.3</h4>
           </div>
-          <div className="w-[24%] bg-[#708993] rounded-[20px] text-center py-10">
-            <img className='h-25 w-25 mx-auto' src={Js} alt="" />
-            <h4 className='text-white text-[16px] font-main font-semibold pt-2'>JAVASCRIPT</h4>
+          <div className="lg:w-[24%] w-[31%] lg:h-60 h-30 bg-[#708993] rounded-[20px] text-center py-2 lg:py-10">
+            <img className='lg:h-25 rounded-[10px] lg:w-25 h-20 w-20 mx-auto' src={Js} alt="" />
+            <h4 className='text-white lg:text-[16px] text-[12px] font-main font-semibold lg:pt-5 pt-1'>JAVASCRIPT</h4>
           </div>
-          <div className="w-[24%] bg-[#708993] rounded-[20px] text-center py-10">
-            <img className='h-25 w-25 mx-auto' src={Reeact} alt="" />
-            <h4 className='text-white text-[16px] font-main font-semibold pt-2'>REACT</h4>
+          <div className="lg:w-[24%] w-[31%] lg:h-60 h-30 bg-[#708993] rounded-[20px] text-center py-2 lg:py-10">
+            <img className='lg:h-25  lg:w-25 h-20 w-20 mx-auto' src={Reeact} alt="" />
+            <h4 className='text-white lg:text-[16px] text-[12px] font-main font-semibold lg:pt-5 pt-1'>REACT</h4>
           </div>
-          <div className="w-[24%] bg-[#708993] rounded-[20px] text-center py-10">
-            <img className='h-25 w-25 mx-auto' src={Tailwind} alt="" />
-            <h4 className='text-white text-[16px] font-main font-semibold pt-2'>TAILWIND CSS</h4>
+          <div className="lg:w-[24%] w-[31%] lg:h-60 h-30 bg-[#708993] rounded-[20px] text-center py-2 lg:py-10">
+            <img className='lg:h-25 rounded-[10px] lg:w-25 h-20 w-20 mx-auto' src={Tailwind} alt="" />
+            <h4 className='text-white lg:text-[16px] text-[12px] font-main font-semibold lg:pt-5 pt-1'>TAILWIND CSS</h4>
           </div>
-          <div className="w-[24%] bg-[#708993] rounded-[20px] text-center py-10">
-            <img className='h-25 w-25 mx-auto' src={Git} alt="" />
-            <h4 className='text-white text-[16px] font-main font-semibold pt-2'>GIT HUB</h4>
+          <div className="lg:w-[24%] w-[31%] lg:h-60 h-30 bg-[#708993] rounded-[20px] text-center py-2 lg:py-10">
+            <img className='lg:h-25  lg:w-25 h-20 w-20 mx-auto' src={Git} alt="" />
+            <h4 className='text-white lg:text-[16px] text-[12px] font-main font-semibold lg:pt-5 pt-1'>GIT HUB</h4>
           </div>
-          <div className="w-[24%] bg-[#708993] rounded-[20px] text-center py-10">
-            <img className='h-25 w-25 mx-auto' src={Next} alt="" />
-            <h4 className='text-white text-[16px] font-main font-semibold pt-2'>NEXT JS</h4>
+          <div className="lg:w-[24%] w-[31%] lg:h-60 h-30 bg-[#708993] rounded-[20px] text-center py-2 lg:py-10">
+            <img className='lg:h-25  lg:w-25 h-20 w-20 mx-auto' src={Next} alt="" />
+            <h4 className='text-white lg:text-[16px] text-[12px] font-main font-semibold lg:pt-5 pt-1'>NEXT JS</h4>
           </div>
          
         </div>

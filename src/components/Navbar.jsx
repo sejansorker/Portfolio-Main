@@ -54,51 +54,53 @@ const Navbar = () => {
   const path = location.pathname
 
   return (
-    <div className="overflow-hidden">
+   <div className="">
+     <div className="overflow-hidden ">
       <Container>
-        <div className="flex">
-          <div className="w-1/3 py-5 pl-10 relative">
+        <div className="flex ">
+          <div className="w-1/3 py-5 lg:pl-10 pl-5 relative">
             {path === "/" && (
-              <h1 className='text-white text-[22px] font-bold font-main after:absolute after:w-[40px] after:h-[5px] after:bg-amber-300 after:bottom-3 after:rounded-[5px] after:left-10'>
+              <h1 className='text-white text-[18px] lg:text-[22px] font-bold font-main after:absolute lg:after:w-[40px] after:w-[30px] lg:after:h-[5px] after:h-[3px] after:bg-amber-300 after:bottom-3 after:rounded-[5px] lg:after:left-10 after:left-5'>
                 Home
               </h1>
             )}
             {path === "/about" && (
-              <h1 className='text-white text-[22px] font-bold font-main after:absolute after:w-[50px] after:h-[5px] after:bg-amber-300 after:bottom-3 after:rounded-[5px] after:left-10'>
+              <h1 className='text-white text-[18px] lg:text-[22px] font-bold font-main after:absolute lg:after:w-[50px] after:w-[40px] lg:after:h-[5px] after:h-[3px] after:bg-amber-300 after:bottom-3 after:rounded-[5px] lg:after:left-10 after:left-5'>
                 About Me
               </h1>
             )}
             {path === "/resume" && (
-              <h1 className='text-white text-[22px] font-bold font-main after:absolute after:w-[50px] after:h-[5px] after:bg-amber-300 after:bottom-3 after:rounded-[5px] after:left-10'>
+              <h1 className='text-white text-[18px] lg:text-[22px] font-bold font-main after:absolute lg:after:w-[50px] after:w-[40px] lg:after:h-[5px] after:h-[3px] after:bg-amber-300 after:bottom-3 after:rounded-[5px] lg:after:left-10 after:left-5'>
                 Resume
               </h1>
             )}
             {path === "/portfolio" && (
-              <h1 className='text-white text-[22px] font-bold font-main after:absolute after:w-[50px] after:h-[5px] after:bg-amber-300 after:bottom-3 after:rounded-[5px] after:left-10'>
+              <h1 className='text-white text-[18px] lg:text-[22px] font-bold font-main after:absolute lg:after:w-[50px] after:w-[40px] lg:after:h-[5px] after:h-[3px] after:bg-amber-300 after:bottom-3 after:rounded-[5px] lg:after:left-10 after:left-5'>
                 Portfolio
               </h1>
             )}
             {path === "/contact" && (
-              <h1 className='text-white text-[22px] font-bold font-main after:absolute after:w-[50px] after:h-[5px] after:bg-amber-300 after:bottom-3 after:rounded-[5px] after:left-10'>
+              <h1 className='text-white text-[18px] lg:text-[22px] font-bold font-main after:absolute lg:after:w-[50px] after:w-[40px] lg:after:h-[5px] after:h-[3px] after:bg-amber-300 after:bottom-3 after:rounded-[5px] lg:after:left-10 after:left-5'>
                 Contact
               </h1>
             )}
           </div>
 
-          <div className="w-2/3">
-            <div className="flex justify-end">
-              <ul className='flex gap-x-8 bg-[rgba(137,137,137,0.11)] py-6 px-20 rounded-tr-[30px] rounded-bl-[30px]'>
-                <Link to="/"><li className={`font-semibold font-main ${path === "/" ? "text-yellow-500" : "text-white"}`}>Home</li></Link>
-                <Link to="/about"><li className={`font-semibold font-main ${path === "/about" ? "text-yellow-500" : "text-white"}`}>About</li></Link>
-                <Link to="/resume"><li className={`font-semibold font-main ${path === "/resume" ? "text-yellow-500" : "text-white"}`}>Resume</li></Link>
-                <Link to="/portfolio"><li className={`font-semibold font-main ${path === "/portfolio" ? "text-yellow-500" : "text-white"}`}>Portfolio</li></Link>
-                <Link to="/contact"><li className={`font-semibold font-main ${path === "/contact" ? "text-yellow-500" : "text-white"}`}>Contact</li></Link>
+          <div className="lg:w-2/3 w-full lg:static fixed bottom-0 left-0 z-50 lg:mx-0 mx-0">
+            <div className="flex lg:justify-end justify-center">
+              <ul className='flex lg:gap-x-8 gap-x-5 bg-[rgb(27,27,27)] lg:bg-[rgba(137,137,137,0.11)] py-6 px-20 rounded-tr-[30px] rounded-bl-[30px]'>
+                <Link to="/"><li className={`font-semibold font-main lg:text-[16px] text-[12px] ${path === "/" ? "text-yellow-500" : "text-white"}`}>Home</li></Link>
+                <Link to="/about"><li className={`font-semibold font-main lg:text-[16px] text-[12px] ${path === "/about" ? "text-yellow-500" : "text-white"}`}>About</li></Link>
+                <Link to="/resume"><li className={`font-semibold font-main lg:text-[16px] text-[12px] ${path === "/resume" ? "text-yellow-500" : "text-white"}`}>Resume</li></Link>
+                <Link to="/portfolio"><li className={`font-semibold font-main lg:text-[16px] text-[12px] ${path === "/portfolio" ? "text-yellow-500" : "text-white"}`}>Portfolio</li></Link>
+                <Link to="/contact"><li className={`font-semibold font-main lg:text-[16px] text-[12px] ${path === "/contact" ? "text-yellow-500" : "text-white"}`}>Contact</li></Link>
               </ul>
             </div>
           </div>
         </div>
       </Container>
     </div>
+   </div>
   )
 }
 

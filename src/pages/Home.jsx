@@ -2,21 +2,16 @@ import React from 'react'
 import { IconCloud } from "@/components/ui/icon-cloud"
 const Home = () => {
   const images = [
-  // ⚛️ Frontend Frameworks
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg",
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg",
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg",
-
-  // 🎨 Styling & UI
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg",
-
-  // 💻 Languages
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
@@ -27,16 +22,12 @@ const Home = () => {
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg",
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg",
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg",
-
-  // ⚙️ Backend
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-plain.svg",
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg",
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg",
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg",
-
-  // 🗄️ Databases
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
@@ -44,8 +35,6 @@ const Home = () => {
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg",
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg",
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prisma/prisma-original.svg",
-
-  // ☁️ Cloud & DevOps
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg",
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg",
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
@@ -54,15 +43,11 @@ const Home = () => {
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg",
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bitbucket/bitbucket-original.svg",
-
-  // 🧠 AI / Data / ML
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg",
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg",
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg",
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg",
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg",
-
-  // 🧩 Tools / Utilities
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg",
@@ -76,19 +61,18 @@ const Home = () => {
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg",
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/discord/discord-original.svg"
 ];
-
   return (
    <>
-   <div className="h-[650px]">
-    <div className="px-10 text-center pt-15 ">
-    <h1 className='text-[50px] text-white font-bold font-main'>HELLO SIR</h1>
+   <div className="lg:h-[650px] h-[400px]">
+    <div className="px-10 text-center lg:pt-15 ">
+    <h1 className='lg:text-[50px] text-[24px] text-white font-bold font-main'>HELLO SIR</h1>
    </div>
     <div className="flex px-10">
       <div className="w-1/3">
       
       </div>
-      <div className="w-1/3 ">
-      <div className=' flex justify-center items-center relative '>
+      <div className="lg:w-1/3 w-full">
+      <div className=' flex justify-center lg:items-center relative mt-[-50px] lg:mt-0'>
       <IconCloud  images={images} />
     </div></div>
       <div className="w-1/3"></div>

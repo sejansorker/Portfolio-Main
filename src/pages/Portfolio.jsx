@@ -18,9 +18,9 @@ const Portfolio = () => {
         <Container>
           <div className="">
             <ul className='flex gap-x-5'>
-              <li onClick={()=>setShow("all")} className='text-white text-[18px] font-bold cursor-pointer '>All</li>
-              <li onClick={()=>setShow("ecommerce")} className='text-white text-[18px] font-bold cursor-pointer '>Ecommerce</li>
-              <li onClick={()=>setShow("web")} className='text-white text-[18px] font-bold cursor-pointer '>Web development</li>
+              <li onClick={()=>setShow("all")} className={` text-[18px] font-bold cursor-pointer ${show === "all" ? "text-amber-300" : "text-white"}`}>All</li>
+              <li onClick={()=>setShow("ecommerce")} className={` text-[18px] font-bold cursor-pointer ${show === "ecommerce" ? "text-amber-300" : "text-white"}`}>Ecommerce</li>
+              <li onClick={()=>setShow("web")} className={` text-[18px] font-bold cursor-pointer ${show === "web" ? "text-amber-300" : "text-white"}`}>Web development</li>
             </ul>
           </div>
           <div className="mt-10">
@@ -165,7 +165,7 @@ const Portfolio = () => {
             </div>
             <div className="">
               {show === "ecommerce" && 
-              <div className="flex justify-between">
+              <div className="flex justify-between h-[500px]">
                  <div className="w-[31%] ">
                   <img className='w-full rounded-[15px]' src={Pro4} alt="" />
                 </div>
@@ -180,7 +180,7 @@ const Portfolio = () => {
             </div>
             <div className="">
               {show === "web" && 
-              <div className="flex justify-between">
+              <div className="flex justify-between h-[500px]">
                 <div className="w-[31%] ">
                   <img className='w-full rounded-[15px]' src={Pro7} alt="" />
                 </div>
