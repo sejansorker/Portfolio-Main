@@ -185,7 +185,6 @@ const About = () => {
             </div>
           </div>
            <div className="lg:w-[48%] w-full relative rounded-[20px] bg-[rgba(137,137,137,0.11)] shadow-[5_15px_15px_rgba(27,27,27,0.92)] py-5 mb-10 px-5">
-            
             <div className=" ">
               <h3 className='text-white lg:text-[20px] text-[16px] font-main font-bold lg:pl-20 pl-15'>Sohel Rana</h3>
               <p className='text-[#ffffffa5] lg:text-[13px] text-[11px] pt-2 font-main font-normal'>Sejan was hired to create a corporate identity. We were very pleased with the work done. </p>

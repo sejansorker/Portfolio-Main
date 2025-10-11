@@ -13,10 +13,10 @@ const Layout = () => {
                      <SlidBar />
                    </div>
                     <div className="mt-3 border-1 border-amber-500 lg:w-2/3 w-full bg-[rgba(27,27,27,0.95)]  lg:rounded-[30px] lg:mt-5 lg:mx-0">
-                       <div className=" ">
+                       <div className="">
                          <Navbar />
                        </div>
-                       <div className="">
+                       <div className="pb-[70px] lg:pb-0">
                          <Outlet />
                        </div>
                     </div>

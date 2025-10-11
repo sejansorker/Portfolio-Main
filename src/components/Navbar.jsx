@@ -55,10 +55,10 @@ const Navbar = () => {
 
   return (
    <div className="">
-     <div className=" ">
+     <div className="overflow-hidden ">
       <Container>
-        <div className="flex ">
-          <div className="w-1/3 lg:py-5 py-3 lg:pl-10 pl-5 relative">
+        <div className="lg:flex ">
+          <div className="lg:w-1/3 w-full lg:py-5 py-3 lg:pl-10 pl-5 relative">
             {path === "/" && (
               <h1 className='text-white text-[18px] lg:text-[22px] font-bold font-main after:absolute lg:after:w-[40px] after:w-[30px] lg:after:h-[5px] after:h-[3px] after:bg-amber-300 after:bottom-3 after:rounded-[5px] lg:after:left-10 after:left-5'>
                 Home

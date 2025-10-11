@@ -72,7 +72,7 @@ const Home = () => {
       
       </div>
       <div className="lg:w-1/3 w-full flex justify-center overflow-hidden">
-      <div className=' relative mt-[0px] lg:mt-0 '>
+      <div className=' relative mt-[-30px] lg:mt-0 '>
       <IconCloud  images={images} />
     </div></div>
       <div className="w-1/3 hidden lg:block"></div>
