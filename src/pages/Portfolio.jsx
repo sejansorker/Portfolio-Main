@@ -26,7 +26,7 @@ const Portfolio = () => {
           <div className="mt-10">
             <div className="">
               {show === "all" && 
-              <div className="flex justify-between flex-wrap lg:gap-5 gap-3">
+              <div className="flex justify-between flex-wrap lg:gap-5 gap-2">
                 <div className="w-[31%]  ">
                 <div className="overflow-hidden relative group rounded-[15px]">
                   <Link to="https://hektoo.netlify.app/">
@@ -71,9 +71,6 @@ const Portfolio = () => {
                   <p className='text-[#ffffff93] text-[10px] lg:text-[14px] font-normal font-main pt-1'>Ecommerce Website</p>
                 </div>
                 </div>
-
-
-
                 <div className="w-[31%]  ">
                 <div className="overflow-hidden relative group rounded-[15px]">
                   <Link to="https://sejansorker.github.io/Finsweet/index.html">
@@ -116,7 +113,6 @@ const Portfolio = () => {
                   <p className='text-[#ffffff93] text-[10px] lg:text-[14px] font-normal font-main pt-1'>Web design</p>
                 </div>
                 </div>
-
                 <div className="w-[31%]  ">
                 <div className="overflow-hidden relative group rounded-[15px]">
                   <Link to="https://sejansorker.github.io/Finsweet/index.html">
