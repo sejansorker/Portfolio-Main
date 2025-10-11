@@ -5,8 +5,8 @@ import Navbar from '../components/Navbar';
 import Container from '../components/Container';
 const Layout = () => {
     return (
-        <div className="bg-black min-h-screen overflow-y-hidden">
-          <div className='lg:mx-0 mx-0 lg:pt-0 pt-3 '>
+        <div className="bg-black min-h-screen">
+          <div className='lg:mx-0 mx-0 lg:pt-0 pt-3'>
             <Container>
                 <div className="lg:flex gap-x-10">
                    <div className="lg:w-1/3 w-full lg:sticky top-0 lg:h-screen lg:mb-0 mb-3">
@@ -16,7 +16,7 @@ const Layout = () => {
                        <div className="">
                          <Navbar />
                        </div>
-                       <div className="pb-20 lg:pb-0">
+                       <div className="lg:pb-0 pb-20">
                          <Outlet />
                        </div>
                     </div>
@@ -26,4 +26,5 @@ const Layout = () => {
         </div>
     )
 }
+
 export default Layout
