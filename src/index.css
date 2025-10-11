@@ -125,22 +125,11 @@
     --sidebar-border:oklch(1 0 0 / 10%);
     --sidebar-ring:oklch(0.551 0.027 264.364);
 }
-
 @layer base {
   * {
     @apply border-border outline-ring/50;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  html, body, #root {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    overflow-x: hidden;
-  }
+    }
   body {
     @apply bg-background text-foreground;
-  }
+    }
 }
-
