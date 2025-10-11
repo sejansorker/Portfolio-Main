@@ -16,7 +16,7 @@ const Layout = () => {
                        <div className="">
                          <Navbar />
                        </div>
-                       <div className="pb-[70px] lg:pb-0">
+                       <div className="pb-[470px] lg:pb-0">
                          <Outlet />
                        </div>
                     </div>
