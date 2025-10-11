@@ -5,7 +5,7 @@ import Navbar from '../components/Navbar';
 import Container from '../components/Container';
 const Layout = () => {
     return (
-        <div className="bg-black">
+        <div className="bg-black min-h-screen overflow-y-hidden">
           <div className='lg:mx-0 mx-2 lg:pt-0 pt-3 '>
             <Container>
                 <div className="lg:flex gap-x-10">

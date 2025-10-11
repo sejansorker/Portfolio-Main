@@ -5,7 +5,7 @@
     --font-main:"Poppins", sans-serif;
 }
 @custom-variant dark (&:is(.dark *));
-html, body {
+/* html, body {
   background-color: #000;
   overflow-x: hidden;
 }
@@ -15,7 +15,7 @@ html, body {
     padding-bottom: env(safe-area-inset-bottom);
     background-color: #000;
   }
-}
+} */
 
 @theme inline {
     --radius-sm:calc(var(--radius) - 4px);
