@@ -10,6 +10,7 @@ import { Link } from 'react-router-dom'
 import { Meteors } from "@/components/ui/meteors"
 import { IoIosArrowDown } from "react-icons/io";
 import { IoIosArrowUp } from "react-icons/io";
+import SS from "../assets/ss.jpg"
 const SlidBar = () => {
   const [down, setDown] = useState(false)
   return (
@@ -22,8 +23,8 @@ const SlidBar = () => {
                 <Meteors />
               </div>
             <div className="lg:text-center lg:gap-x-0 gap-x-5 flex lg:flex-col lg:w-[240px] w-full lg:mx-auto border-b-2 border-[rgba(137,137,137,0.24)] lg:pb-6 pb-3">
-              <div className="bg-[rgba(137,137,137,0.28)] lg:w-[200px] w-[90px] rounded-[30px] lg:mx-auto">
-                <img className='w-full' src={Me} alt="" />
+              <div className=" lg:w-[200px] w-[90px] flex justify-center  lg:mx-auto">
+                <img className='w-40 h-40  rounded-[50%]' src={SS} alt="" />
               </div>
               <div className="">
                 <h2 className='lg:py-4 py-2 text-white lg:text-[28px] text-[18px] font-bold font-main'>Sejan Sorker</h2>

@@ -155,8 +155,6 @@ const Portfolio = () => {
                   <p className='text-[#ffffff93] text-[10px] lg:text-[14px] font-normal font-main pt-1'>Web design</p>
                 </div>
                 </div>
-                
-                
               </div>
               }
             </div>

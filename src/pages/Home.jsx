@@ -65,11 +65,10 @@ const Home = () => {
    <>
    <div className="lg:h-[650px] h-screen overflow-x-hidden">
     <div className="px-10 text-center lg:pt-15 ">
-    <h1 className='lg:text-[50px] text-[24px] text-white font-bold font-main'>HELLO SIR</h1>
+    <h1 className='lg:text-[50px] text-[24px] text-white font-bold font-main'>HELLO SIRRRRRRR</h1>
    </div>
     <div className="flex lg:px-10">
       <div className="w-1/3 hidden lg:block">
-      
       </div>
       <div className="lg:w-1/3 w-full flex justify-center overflow-hidden">
       <div className=' relative mt-[-30px] lg:mt-0 '>
