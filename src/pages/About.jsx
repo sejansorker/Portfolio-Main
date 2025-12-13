@@ -168,7 +168,7 @@ const About = () => {
               </div>
               <div className="pl-5">
                 <h4 className='text-white lg:text-[20px] text-[16px] font-bold font-main'>Sports</h4>
-                <h5 className='text-[#ffffffb6] pt-[1px] font-main font-normal lg:text-[14px] text-[12px]'>The most modern and high-quality design made at a professional level.</h5>
+                <h5 className='text-[#ffffffb6] pt-[1px] font-main font-normal lg:text-[14px] text-[12px]'>A skilled player with strong performance on the field.</h5>
               </div>
             </div>
           </div>

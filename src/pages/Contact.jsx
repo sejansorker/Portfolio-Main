@@ -26,14 +26,19 @@ const Contact = () => {
             <MdOutlineEmail className='text-amber-300  font-bold font-main lg:text-[19px] text-[15px]' />
           <button className='text-white font-bold font-main lg:text-[16px] text-[14px] cursor-pointer'> sejansorker@gmail.com</button>
            </div>
-           <div className="flex items-center gap-x-2 py-2.5 px-4 lg:px-8 cursor-pointer bg-[#708993] rounded-[10px] w-fit">
+           <Link to={"https://www.linkedin.com/in/sejansorker" }  target="_blank">
+            <div className="flex items-center gap-x-2 py-2.5 px-4 lg:px-8 cursor-pointer bg-[#708993] rounded-[10px] w-fit">
             <TbBrandLinkedin className='text-amber-300  font-bold font-main lg:text-[19px] text-[15px]' />
           <button className='text-white font-bold font-main lg:text-[16px] text-[14px] cursor-pointer'> sejan sorker</button>
            </div>
+           </Link>
+           <Link to={"https://www.facebook.com/share/1BYgFJFfkA/"} target='_blank'>
            <div className="flex items-center gap-x-2 py-2.5 px-4 lg:px-8 cursor-pointer bg-[#708993] rounded-[10px] w-fit">
             <FaFacebook className='text-amber-300  font-bold font-main lg:text-[19px] text-[15px]' />
           <button className='text-white font-bold font-main lg:text-[16px] text-[14px] cursor-pointer'> Sejan Sorker</button>
            </div>
+           </Link>
+           
           </div>
         </div>
         </Container>

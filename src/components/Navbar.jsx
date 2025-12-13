@@ -36,7 +36,6 @@ const Navbar = () => {
           <div className="lg:w-2/3 w-full lg:static fixed bottom-0 left-0 right-0 z-50 pb-[env(safe-area-inset-bottom)]">
             <div className="flex lg:justify-end justify-center ">
               <ul className='flex justify-center lg:gap-x-8 gap-x-5 w-full bg-[rgba(27,27,27)] lg:bg-[rgba(137,137,137,0.11)] lg:py-6 py-4 lg:px-20  lg:rounded-tr-[30px] lg:rounded-bl-[30px]'>
-              
                 <Link to="/about"><li className={`font-semibold font-main lg:text-[16px] text-[12px] ${path === "/about" ? "text-yellow-500" : "text-white"}`}>About</li></Link>
                 <Link to="/resume"><li className={`font-semibold font-main lg:text-[16px] text-[12px] ${path === "/resume" ? "text-yellow-500" : "text-white"}`}>Resume</li></Link>
                 <Link to="/portfolio"><li className={`font-semibold font-main lg:text-[16px] text-[12px] ${path === "/portfolio" ? "text-yellow-500" : "text-white"}`}>Portfolio</li></Link>

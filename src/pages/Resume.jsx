@@ -30,7 +30,7 @@ const Resume = () => {
         </div>
         <div className="pl-9 relative">
           <h5 className='text-yellow-500 text-[16px] font-normal font-main py-2 after:absolute after:w-[2px] after:h-[113px] after:top-[-6px] after:left-[7px] after:bg-[rgba(137,137,137,0.24)]'>2024-2025</h5>
-          <p className='text-white text-[14px] font-normal font-main pb-5'>Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.</p>
+          <p className='text-white text-[14px] font-normal font-main pb-5'>Successfully completed the Frontend Development with React course, gaining practical skills and hands-on experience in building modern web applications.</p>
         </div>
          </div>
          <div className="">
@@ -42,7 +42,7 @@ const Resume = () => {
         </div>
         <div className="pl-9 relative">
           <h5 className='text-yellow-500 text-[16px] font-normal font-main py-2 after:absolute after:w-[2px] after:h-[100px] after:top-[-6px] after:left-[7px] after:bg-[rgba(137,137,137,0.24)]'>2022-2023</h5>
-          <p className='text-white text-[14px] font-normal font-main pb-5'>Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.</p>
+          <p className='text-white text-[14px] font-normal font-main pb-5'>Successfully completed HSC in 2022–2023 with a focus on academic growth and learning.</p>
         </div>
          </div>
        </div>
@@ -63,7 +63,7 @@ const Resume = () => {
         </div>
         <div className="pl-9 relative">
           <h5 className='text-yellow-500 text-[16px] font-normal font-main py-2 after:absolute after:w-[2px] after:h-[113px] after:top-[-6px] after:left-[7px] after:bg-[rgba(137,137,137,0.24)]'>2024-2025</h5>
-          <p className='text-white text-[14px] font-normal font-main pb-5'>Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.</p>
+          <p className='text-white text-[14px] font-normal font-main pb-5'>Completed a 3-month internship in React frontend development, gaining practical skills and project experience.</p>
         </div>
          </div>
        </div>
