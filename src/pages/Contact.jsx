@@ -38,12 +38,10 @@ const Contact = () => {
           <button className='text-white font-bold font-main lg:text-[16px] text-[14px] cursor-pointer'> Sejan Sorker</button>
            </div>
            </Link>
-           
           </div>
         </div>
         </Container>
     </div>
   )
 }
-
 export default Contact
