@@ -47,7 +47,7 @@ const Resume = () => {
          </div>
        </div>
        </div>
-       <div className="px-5 lg:mt-5 mt-3">
+       <div className="px-5 lg:mt-10 mt-3 lg:pl-10">
         <div className="flex gap-x-5 items-center">
           <div className="h-8 w-8 rounded-[5px] border-1 border-[#F8D568] text-amber-300 flex justify-center items-center">
           <FaBookOpen />
