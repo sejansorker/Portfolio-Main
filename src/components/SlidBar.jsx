@@ -27,7 +27,7 @@ const SlidBar = () => {
                 <img className='lg:w-45 lg:h-45 w-20 h-20  rounded-[50%]' src={SS} alt="" />
               </div>
               <div className="">
-                <h2 className='lg:py-5.5 py-2 text-white lg:text-[30px] text-[18px] font-bold font-main'>Md. Sejan Sorker</h2>
+                <h2 className='lg:py-5.5 py-2 text-white lg:text-[29px] text-[18px] font-semibold font-main'>MD. SEJAN SORKER</h2>
                 <h2 className='text-white lg:text-[16px]  text-[10px] font-normal lg:font-semibold rounded-[10px] mx-auto w-fit font-main lg:px-3.5 px-2 lg:py-2 py-1 bg-amber-500'>Frontend Developer</h2>
               </div>
             </div>
