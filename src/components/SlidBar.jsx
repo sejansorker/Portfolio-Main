@@ -23,9 +23,9 @@ const SlidBar = () => {
                 <Meteors />
               </div>
             <div className="lg:text-center lg:gap-x-0 gap-x-5 flex lg:flex-col lg:w-[280px] w-full lg:mx-auto border-b-1 border-amber-500 lg:pb-7.5 pb-3">
-              <div className=" lg:w-[200px] w-[90px] flex justify-center  lg:mx-auto">
+              {/* <div className=" lg:w-[200px] w-[90px] flex justify-center  lg:mx-auto">
                 <img className='lg:w-45 lg:h-45 w-20 h-20  rounded-[50%]' src={SS} alt="" />
-              </div>
+              </div> */}
               <div className="">
                 <h2 className='lg:py-5.5 py-2 text-white lg:text-[29px] text-[18px] font-semibold font-main'>MD. SEJAN SORKER</h2>
                 <h2 className='text-white lg:text-[16px]  text-[10px] font-normal lg:font-semibold rounded-[10px] mx-auto w-fit font-main lg:px-3.5 px-2 lg:py-2 py-1 bg-amber-500'>Frontend Developer</h2>
@@ -52,7 +52,7 @@ const SlidBar = () => {
                   </Link>
                 </div>
               </div>
-              <div className="flex items-center lg:pl-[80px] ">
+              {/* <div className="flex items-center lg:pl-[80px] ">
                 <div className="lg:h-10 lg:w-10 h-6 w-6  rounded-[5px] border-1 border-[#F8D568] flex items-center justify-center ">
                   <TbCalendar className='text-[#F8D568] lg:text-[18px] text-[10px]' />
                 </div>
@@ -60,7 +60,7 @@ const SlidBar = () => {
                   <p className='font-main font-normal lg:text-[15px] text-[10px] text-[rgba(255,255,255,0.54)]'>Birthday</p>
                   <p className='font-main font-normal lg:text-[16px] text-[11px] text-white'>1 July, 2004</p>
                 </div>
-              </div>
+              </div> */}
               <div className="flex items-center lg:pl-[80px] mt-5">
                 <div className="lg:h-10 lg:w-10 h-6 w-6  rounded-[5px] border-1 border-[#F8D568] flex items-center justify-center ">
                   <MdLocationPin className='text-[#F8D568] lg:text-[18px] text-[10px]' />
