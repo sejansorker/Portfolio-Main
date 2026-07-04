@@ -19,11 +19,11 @@ const SlidBar = () => {
       <div className="">
         <Container>
          <div className=" relative">
-           <div className={`${down ? "h-[400px] " : "h-[150px]"} lg:px-0 border-1 border-amber-500  px-5 lg:h-[805px] w-full relative overflow-hidden pt-10 bg-[rgba(27,27,27,0.92)] text-white my-0 lg:my-5 rounded-[30px] duration-300 ease-in-out`}>
+           <div className={`${down ? "h-[400px] " : "h-[150px]"} lg:px-0 border-1 border-amber-500  px-5 lg:h-[855px] w-full relative overflow-hidden pt-10 bg-[rgba(27,27,27,0.92)] text-white my-0 lg:my-5 rounded-[30px] duration-300 ease-in-out`}>
               <div className="h-full  absolute">
                 <Meteors />
               </div>
-              <div className="absolute -top-20 left-0 w-full">
+              <div className="absolute -top-25 left-0 w-full">
                 <Lanyard
                  position={[0, 0, 25]}
                  gravity={[0, -40, 0]}
