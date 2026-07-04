@@ -7,8 +7,8 @@ import { BallCollider, CuboidCollider, Physics, RigidBody, useRopeJoint, useSphe
 import { MeshLineGeometry, MeshLineMaterial } from 'meshline';
 
 // replace with your own imports, see the usage snippet for details
-import cardGLB from './card.glb';
-import lanyard from './lanyard.png';
+import cardGLB from '../assets/card.glb';
+import lanyard from '../assets/lanyard.png';
 
 import * as THREE from 'three';
 
@@ -174,9 +174,9 @@ function Band({
   const [dragged, drag] = useState(false);
   const [hovered, hover] = useState(false);
 
-  useRopeJoint(fixed, j1, [[0, 0, 0], [0, 0, 0], 1]);
-  useRopeJoint(j1, j2, [[0, 0, 0], [0, 0, 0], 1]);
-  useRopeJoint(j2, j3, [[0, 0, 0], [0, 0, 0], 1]);
+  useRopeJoint(fixed, j1, [[0, 0, 0], [0, 0, 0], .2]);
+  useRopeJoint(j1, j2, [[0, 0, 0], [0, 0, 0], .2]);
+  useRopeJoint(j2, j3, [[0, 0, 0], [0, 0, 0], .2]);
   useSphericalJoint(j3, card, [
     [0, 0, 0],
     [0, 1.5, 0]

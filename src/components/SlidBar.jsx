@@ -11,6 +11,7 @@ import { Meteors } from "@/components/ui/meteors"
 import { IoIosArrowDown } from "react-icons/io";
 import { IoIosArrowUp } from "react-icons/io";
 import SS from "../assets/ss.jpg"
+import Lanyard from './Lanyard'
 const SlidBar = () => {
   const [down, setDown] = useState(false)
   return (
@@ -22,11 +23,18 @@ const SlidBar = () => {
               <div className="h-full  absolute">
                 <Meteors />
               </div>
+              <div className="absolute -top-20 left-0 w-full">
+                <Lanyard
+                 position={[0, 0, 25]}
+                 gravity={[0, -40, 0]}
+                 frontImage={SS}
+                  />
+              </div>
             <div className="lg:text-center lg:gap-x-0 gap-x-5 flex lg:flex-col lg:w-[280px] w-full lg:mx-auto border-b-1 border-amber-500 lg:pb-7.5 pb-3">
               {/* <div className=" lg:w-[200px] w-[90px] flex justify-center  lg:mx-auto">
                 <img className='lg:w-45 lg:h-45 w-20 h-20  rounded-[50%]' src={SS} alt="" />
               </div> */}
-              <div className="">
+              <div className="lg:mt-75 mt-30">
                 <h2 className='lg:py-5.5 py-2 text-white lg:text-[29px] text-[18px] font-semibold font-main'>MD. SEJAN SORKER</h2>
                 <h2 className='text-white lg:text-[16px]  text-[10px] font-normal lg:font-semibold rounded-[10px] mx-auto w-fit font-main lg:px-3.5 px-2 lg:py-2 py-1 bg-amber-500'>Frontend Developer</h2>
               </div>
