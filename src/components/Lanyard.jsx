@@ -47,7 +47,7 @@ export default function Lanyard({
 
   return (
     <div
-      className="relative z-0 w-full h-full flex justify-center items-center transform scale-100 origin-center">
+      className="relative z-30 w-full  h-full flex justify-center items-center transform scale-100 origin-center">
       <Canvas
         camera={{ position: position, fov: fov }}
         dpr={[1, isMobile ? 1.5 : 2]}
@@ -174,9 +174,9 @@ function Band({
   const [dragged, drag] = useState(false);
   const [hovered, hover] = useState(false);
 
-  useRopeJoint(fixed, j1, [[0, 0, 0], [0, 0, 0], .3]);
-  useRopeJoint(j1, j2, [[0, 0, 0], [0, 0, 0], .3]);
-  useRopeJoint(j2, j3, [[0, 0, 0], [0, 0, 0], .3]);
+  useRopeJoint(fixed, j1, [[0, 0, 0], [0, 0, 0], .5]);
+  useRopeJoint(j1, j2, [[0, 0, 0], [0, 0, 0], .5]);
+  useRopeJoint(j2, j3, [[0, 0, 0], [0, 0, 0], .5]);
   useSphericalJoint(j3, card, [
     [0, 0, 0],
     [0, 1.5, 0]

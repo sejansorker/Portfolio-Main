@@ -23,7 +23,7 @@ const SlidBar = () => {
               <div className="h-full  absolute">
                 <Meteors />
               </div>
-              <div className="absolute -top-25 left-0 w-full">
+              <div className="absolute -top-25 left-0 w-full z-100 h-full">
                 <Lanyard
                  position={[0, 0, 25]}
                  gravity={[0, -40, 0]}
