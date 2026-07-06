@@ -24,7 +24,7 @@ const SlidBar = () => {
               <div className="h-full  absolute">
                 <Meteors />
               </div>
-              <div className="absolute lg:-top-25 -top-20 lg:left-0 left-10 w-full h-full">
+              <div className="hidden lg:block absolute lg:-top-25  lg:left-0  w-full h-full">
                 <Lanyard
                   position={[0, 0, 25]}
                   gravity={[0, -40, 0]}
