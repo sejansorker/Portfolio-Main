@@ -29,6 +29,8 @@ const SlidBar = () => {
                   position={[0, 0, 25]}
                   gravity={[0, -40, 0]}
                   frontImage={SS}
+                  backImage={SS}
+                  imageFit="cover"
                 />
               </div>
               <div className="lg:text-center lg:gap-x-0 gap-x-5 flex lg:flex-col lg:w-[280px] w-full lg:mx-auto border-b-1 border-amber-500 lg:pb-7.5 pb-3">
@@ -37,17 +39,17 @@ const SlidBar = () => {
               </div> */}
                 <div className="lg:mt-75 mt-0">
                   <h2 className='lg:py-5.5 py-2 text-white lg:text-[29px] text-[18px] font-semibold font-main'>MD. SEJAN SORKER</h2>
-                  
+
                   {/* <h2 className='text-white lg:text-[16px]  text-[10px] font-normal lg:font-semibold rounded-[10px] mx-auto w-fit font-main lg:px-3.5 px-2 lg:py-2 py-1 bg-amber-500'>Frontend Developer</h2> */}
                   <div className="">
                     <TrueFocus className=""
-                    sentence="Frontend Developer"
-                    manualMode={false}
-                    blurAmount={5}
-                    borderColor="#5227FF"
-                    animationDuration={0.5}
-                    pauseBetweenAnimations={1}
-                  />
+                      sentence="Frontend Developer"
+                      manualMode={false}
+                      blurAmount={5}
+                      borderColor="#5227FF"
+                      animationDuration={0.5}
+                      pauseBetweenAnimations={1}
+                    />
                   </div>
                 </div>
               </div>
