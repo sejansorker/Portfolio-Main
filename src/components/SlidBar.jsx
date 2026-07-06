@@ -20,11 +20,11 @@ const SlidBar = () => {
       <div className="">
         <Container>
           <div className=" relative">
-            <div className={`${down ? "h-[400px] " : "h-[150px]"} lg:px-0 border-1 border-amber-500  px-5 lg:h-[855px] w-full relative overflow-hidden pt-10 bg-[rgba(27,27,27,0.92)] text-white my-0 lg:my-5 rounded-[30px] duration-300 ease-in-out`}>
+            <div className={`${down ? "h-[400px] " : "h-[160px]"} lg:px-0 border-1 border-amber-500  px-5 lg:h-[855px] w-full relative overflow-hidden pt-10 bg-[rgba(27,27,27,0.92)] text-white my-0 lg:my-5 rounded-[30px] duration-300 ease-in-out`}>
               <div className="h-full  absolute">
                 <Meteors />
               </div>
-              <div className="absolute -top-25 left-0 w-full z-100 h-full">
+              <div className="absolute -top-25 left-0 w-full h-full">
                 <Lanyard
                   position={[0, 0, 25]}
                   gravity={[0, -40, 0]}
@@ -35,7 +35,7 @@ const SlidBar = () => {
                 {/* <div className=" lg:w-[200px] w-[90px] flex justify-center  lg:mx-auto">
                 <img className='lg:w-45 lg:h-45 w-20 h-20  rounded-[50%]' src={SS} alt="" />
               </div> */}
-                <div className="lg:mt-75 mt-30">
+                <div className="lg:mt-75 mt-10">
                   <h2 className='lg:py-5.5 py-2 text-white lg:text-[29px] text-[18px] font-semibold font-main'>MD. SEJAN SORKER</h2>
                   
                   {/* <h2 className='text-white lg:text-[16px]  text-[10px] font-normal lg:font-semibold rounded-[10px] mx-auto w-fit font-main lg:px-3.5 px-2 lg:py-2 py-1 bg-amber-500'>Frontend Developer</h2> */}
@@ -99,7 +99,7 @@ const SlidBar = () => {
                 </div>
               </div>
             </div>
-            <div onClick={() => setDown(!down)} className="absolute h-13 w-13 rounded-tr-[30px] rounded-bl-[30px] flex items-center justify-center border-1 border-amber-500 top-[-0px]  right-[0px] lg:hidden">
+            <div onClick={() => setDown(!down)} className="absolute z-100 h-13 w-13 rounded-tr-[30px] rounded-bl-[30px] flex items-center justify-center border-1 border-amber-500 top-[-0px]  right-[0px] lg:hidden">
               {down ? <IoIosArrowUp className='text-amber-500' /> : <IoIosArrowDown className='text-amber-500' />}
             </div>
           </div>
