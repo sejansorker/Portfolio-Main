@@ -223,7 +223,7 @@ const About = () => {
                   <h3 className="text-white lg:text-[20px] text-[16px] font-bold font-main">
                     {item.title}
                   </h3>
-                  <p className="text-[#ffffffb6] pt-[1px] font-main font-normal lg:text-[14px] text-[12px]">
+                  <p className="text-[#ffffffb6] pt-[10px] font-main font-normal lg:text-[14px] text-[12px]">
                     {item.desc}
                   </p>
                 </div>
