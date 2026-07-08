@@ -217,7 +217,7 @@ const About = () => {
                   <p className="absolute top-7 right-6 text-xs text-[#6d5b45]">
                     {item.tag}
                   </p>
-                  <div className="w-14 h-14 border border-[#5b4325] flex items-center justify-center text-2xl text-amber-400 mb-6">
+                  <div className="w-14 h-14 border border-[#5b4325] flex items-center justify-center text-2xl text-amber-400 mb-4">
                     {item.icon}
                   </div>
                   <h3 className="text-white lg:text-[20px] text-[16px] font-bold font-main">
