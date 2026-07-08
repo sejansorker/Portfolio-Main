@@ -13,8 +13,10 @@ import { IoIosArrowUp } from "react-icons/io";
 import SS from "../assets/ss.jpg"
 import Lanyard from './Lanyard'
 import TrueFocus from './TrueFocus'
+
 const SlidBar = () => {
   const [down, setDown] = useState(false)
+
   return (
     <>
       <div className="">

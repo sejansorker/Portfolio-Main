@@ -2,13 +2,42 @@ import React from 'react'
 import Container from '../components/Container'
 import { MdOutlineSportsCricket, MdSportsHandball } from 'react-icons/md'
 import Sir from "../assets/me.png"
+import { FaCode, FaCamera, FaTrophy } from "react-icons/fa";
+import { HiOutlinePencilAlt } from "react-icons/hi";
+const services = [
+  {
+    icon: <HiOutlinePencilAlt />,
+    title: "Web Design",
+    desc: "Modern, high-quality interface design built at a professional standard.",
+    tag: "f/1.8",
+  },
+  {
+    icon: <FaCode />,
+    title: "Web Development",
+    desc: "Clean, high-quality site development at a professional standard.",
+    tag: "24mm",
+  },
+  {
+    icon: <FaCamera />,
+    title: "Photography",
+    desc: "High-quality photography across categories, shot at a professional level.",
+    tag: "ISO 200",
+  },
+  {
+    icon: <FaTrophy />,
+    title: "Sports",
+    desc: "A disciplined player with strong, consistent performance on the field.",
+    tag: "1/500s",
+  },
+];
 const About = () => {
+
   return (
     <Container>
       <div className="overflow-hidden ">
         <div className="lg:px-10 px-5">
           <p className='font-main font-normal lg:text-[16px] text-[12px] pt-2 lg:pt-5 pb-5 lg:pb-10 text-[#ffffffa4]'>My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.</p>
-          <h2 className='font-main font-bold lg:text-[30px] text-[18px] lg:pb-10 pb-5 text-[#ffffff]'>What i'm doing</h2>
+          {/* <h2 className='font-main font-bold lg:text-[30px] text-[18px] lg:pb-10 pb-5 text-[#ffffff]'>What i'm doing</h2>
           <div className="flex flex-wrap justify-between lg:gap-y-10 gap-y-5">
             <div className="flex w-full lg:w-[48%] p-4 lg:p-7  bg-[rgba(137,137,137,0.11)] rounded-[20px] shadow-[5_15px_15px_rgba(27,27,27,0.92)]">
               <div className="">
@@ -164,38 +193,68 @@ const About = () => {
             </div>
             <div className="flex w-full lg:w-[48%] p-4 lg:p-7 bg-[rgba(137,137,137,0.11)] rounded-[20px] shadow-[5_15px_15px_rgba(27,27,27,0.92)]">
               <div className="">
-               <MdOutlineSportsCricket className='text-amber-300 text-[39px]' />
+                <MdOutlineSportsCricket className='text-amber-300 text-[39px]' />
               </div>
               <div className="pl-5">
                 <h4 className='text-white lg:text-[20px] text-[16px] font-bold font-main'>Sports</h4>
                 <h5 className='text-[#ffffffb6] pt-[1px] font-main font-normal lg:text-[14px] text-[12px]'>A skilled player with strong performance on the field.</h5>
               </div>
             </div>
+          </div> */}
+          <div className="">
+            <h2 className="font-main font-bold lg:text-[30px] text-[18px] lg:pb-10 pb-5 text-[#ffffff]">What I'm Doing</h2>
+
+            <div className="grid md:grid-cols-2 gap-5">
+              {services.map((item, index) => (
+                <div
+                  key={index}
+                  className="relative border border-[#5b4325] p-7 hover:border-amber-500 duration-300"
+                >
+                  <span className="absolute top-2 left-2 w-3 h-3 border-t-2 border-l-2 border-amber-400"></span>
+                  <span className="absolute top-2 right-2 w-3 h-3 border-t-2 border-r-2 border-amber-400"></span>
+                  <span className="absolute bottom-2 left-2 w-3 h-3 border-b-2 border-l-2 border-amber-400"></span>
+                  <span className="absolute bottom-2 right-2 w-3 h-3 border-b-2 border-r-2 border-amber-400"></span>
+                  <p className="absolute top-7 right-6 text-xs text-[#6d5b45]">
+                    {item.tag}
+                  </p>
+                  <div className="w-14 h-14 border border-[#5b4325] flex items-center justify-center text-2xl text-amber-400 mb-6">
+                    {item.icon}
+                  </div>
+                  <h3 className="text-white lg:text-[20px] text-[16px] font-bold font-main">
+                    {item.title}
+                  </h3>
+                  <p className="text-[#ffffffb6] pt-[1px] font-main font-normal lg:text-[14px] text-[12px]">
+                    {item.desc}
+                  </p>
+                </div>
+              ))}
+            </div>
           </div>
           <h2 className='font-main font-bold lg:text-[30px] text-[22px] lg:pt-10 lg:pb-15 pt-5 pb-9 text-[#ffffff]'>Testimonials</h2>
-         <div className="lg:flex justify-between lg:mb-0 mb-20">
-           <div className="lg:w-[48%] w-full relative rounded-[20px] bg-[rgba(137,137,137,0.11)] shadow-[5_15px_15px_rgba(27,27,27,0.92)] py-5 mb-10 px-5">
-            
-            <div className=" ">
-              <h3 className='text-white lg:text-[20px] text-[16px] font-main font-bold lg:pl-20 pl-15'>Razibur Rohoman</h3>
-              <p className='text-[#ffffffa5] lg:text-[13px] text-[11px] pt-2 font-main font-normal'>Sejan was hired to create a corporate identity. We were very pleased with the work done. </p>
-            </div>
-           <div className="bg-[rgba(137,137,137,0.97)] absolute lg:top-[-25px] top-[-12px] left-[15px] lg:w-18 w-13 lg:rounded-[20px] rounded-[10px]">
+          <div className="lg:flex justify-between lg:mb-0 mb-20">
+            <div className="lg:w-[48%] w-full relative rounded-[20px] bg-[rgba(137,137,137,0.11)] shadow-[5_15px_15px_rgba(27,27,27,0.92)] py-5 mb-10 px-5">
+
+              <div className=" ">
+                <h3 className='text-white lg:text-[20px] text-[16px] font-main font-bold lg:pl-20 pl-15'>Razibur Rohoman</h3>
+                <p className='text-[#ffffffa5] lg:text-[13px] text-[11px] pt-2 font-main font-normal'>Sejan was hired to create a corporate identity. We were very pleased with the work done. </p>
+              </div>
+              <div className="bg-[rgba(137,137,137,0.97)] absolute lg:top-[-25px] top-[-12px] left-[15px] lg:w-18 w-13 lg:rounded-[20px] rounded-[10px]">
                 <img src={Sir} alt="" />
+              </div>
+            </div>
+            <div className="lg:w-[48%] w-full relative rounded-[20px] bg-[rgba(137,137,137,0.11)] shadow-[5_15px_15px_rgba(27,27,27,0.92)] py-5 mb-10 px-5">
+              <div className=" ">
+                <h3 className='text-white lg:text-[20px] text-[16px] font-main font-bold lg:pl-20 pl-15'>Sohel Rana</h3>
+                <p className='text-[#ffffffa5] lg:text-[13px] text-[11px] pt-2 font-main font-normal'>Sejan was hired to create a corporate identity. We were very pleased with the work done. </p>
+              </div>
+              <div className="bg-[rgba(137,137,137,0.97)] absolute lg:top-[-25px] top-[-12px] left-[15px] lg:w-18 w-13 lg:rounded-[20px] rounded-[10px] ">
+                <img src={Sir} alt="" />
+              </div>
             </div>
           </div>
-           <div className="lg:w-[48%] w-full relative rounded-[20px] bg-[rgba(137,137,137,0.11)] shadow-[5_15px_15px_rgba(27,27,27,0.92)] py-5 mb-10 px-5">
-            <div className=" ">
-              <h3 className='text-white lg:text-[20px] text-[16px] font-main font-bold lg:pl-20 pl-15'>Sohel Rana</h3>
-              <p className='text-[#ffffffa5] lg:text-[13px] text-[11px] pt-2 font-main font-normal'>Sejan was hired to create a corporate identity. We were very pleased with the work done. </p>
-            </div>
-           <div className="bg-[rgba(137,137,137,0.97)] absolute lg:top-[-25px] top-[-12px] left-[15px] lg:w-18 w-13 lg:rounded-[20px] rounded-[10px] ">
-                <img src={Sir} alt="" />
-            </div>
-          </div>
-         </div>
         </div>
       </div>
+      
     </Container>
   )
 }
