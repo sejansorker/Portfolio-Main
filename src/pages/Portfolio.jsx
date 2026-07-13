@@ -160,7 +160,7 @@ const Portfolio = () => {
             </div>
             <div className="">
               {show === "ecommerce" && 
-              <div className="flex justify-between lg:h-160">
+              <div className="flex justify-between lg:h-160 h-100">
                 <div className="w-[31%]  ">
                 <div className="overflow-hidden relative group rounded-[15px]">
                   <Link to="https://hektoo.netlify.app/">
@@ -210,7 +210,7 @@ const Portfolio = () => {
             </div>
             <div className="">
               {show === "web" && 
-              <div className="flex justify-between flex-wrap lg:gap-5 gap-2 lg:h-160 content-start">
+              <div className="flex justify-between flex-wrap lg:gap-5 gap-2 lg:h-160 content-start h-100">
                  <div className="w-[31%]  ">
                 <div className="overflow-hidden relative group rounded-[15px]">
                   <Link to="https://sejansorker.github.io/Finsweet/index.html">
