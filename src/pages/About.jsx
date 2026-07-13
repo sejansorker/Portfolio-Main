@@ -36,7 +36,7 @@ const About = () => {
     <Container>
       <div className="overflow-hidden ">
         <div className="lg:px-10 px-5">
-          <p className='font-main font-normal lg:text-[16px] text-[12px] pt-2 lg:pt-5 pb-5 lg:pb-10 text-[#ffffffa4]'>My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.</p>
+          <p className='font-main font-normal lg:text-[16px] text-[12px] pt-2 lg:pt-10 pb-5 lg:pb-10 text-[#fff]'>My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.</p>
           {/* <h2 className='font-main font-bold lg:text-[30px] text-[18px] lg:pb-10 pb-5 text-[#ffffff]'>What i'm doing</h2>
           <div className="flex flex-wrap justify-between lg:gap-y-10 gap-y-5">
             <div className="flex w-full lg:w-[48%] p-4 lg:p-7  bg-[rgba(137,137,137,0.11)] rounded-[20px] shadow-[5_15px_15px_rgba(27,27,27,0.92)]">

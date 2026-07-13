@@ -14,7 +14,7 @@ import { SlEye } from 'react-icons/sl'
 const Portfolio = () => {
   const [show, setShow] = useState("all")
   return (
-    <div className='lg:px-10 px-5 my-10'>
+    <div className='lg:px-10 px-5 my-10 '>
         <Container>
           <div className="">
             <ul className='flex lg:gap-x-5 gap-x-3'>
@@ -160,7 +160,7 @@ const Portfolio = () => {
             </div>
             <div className="">
               {show === "ecommerce" && 
-              <div className="flex justify-between h-[500px]">
+              <div className="flex justify-between lg:h-160">
                 <div className="w-[31%]  ">
                 <div className="overflow-hidden relative group rounded-[15px]">
                   <Link to="https://hektoo.netlify.app/">
@@ -210,7 +210,7 @@ const Portfolio = () => {
             </div>
             <div className="">
               {show === "web" && 
-              <div className="flex justify-between flex-wrap">
+              <div className="flex justify-between flex-wrap lg:gap-5 gap-2 lg:h-160 content-start">
                  <div className="w-[31%]  ">
                 <div className="overflow-hidden relative group rounded-[15px]">
                   <Link to="https://sejansorker.github.io/Finsweet/index.html">

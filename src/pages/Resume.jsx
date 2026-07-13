@@ -10,20 +10,12 @@ import Tailwind from "../assets/tailwind.png"
 import Git from "../assets/github.svg"
 import Next from "../assets/next.svg"
 import Skill from '@/components/Skill'
-import ClickSpark from '@/components/ClickSpark'
 const Resume = () => {
   return (
    <>
    <Container>
-    <ClickSpark
-  sparkColor="#ffffff"
-  sparkSize={10}
-  sparkRadius={15}
-  sparkCount={8}
-  duration={400}
->
-  {/* Your content here */}
-  <div className="lg:px-10 px-5 mt-5 ">
+    
+       <div className="lg:px-10 px-5 mt-5 ">
         <div className="flex gap-x-5 items-center">
           <div className="h-8 w-8 rounded-[5px] border-1 border-[#F8D568] text-amber-300 flex justify-center items-center">
           <FaBookOpen />
@@ -79,8 +71,6 @@ const Resume = () => {
        </div>
        
        <Skill/>
-</ClickSpark>
-       
    </Container>
    </>
   )
