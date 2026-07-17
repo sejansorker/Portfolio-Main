@@ -76,15 +76,6 @@ const SlidBar = () => {
                     </Link>
                   </div>
                 </div>
-                {/* <div className="flex items-center lg:pl-[80px] ">
-                <div className="lg:h-10 lg:w-10 h-6 w-6  rounded-[5px] border-1 border-[#F8D568] flex items-center justify-center ">
-                  <TbCalendar className='text-[#F8D568] lg:text-[18px] text-[10px]' />
-                </div>
-                <div className="lg:pl-3 pl-2">
-                  <p className='font-main font-normal lg:text-[15px] text-[10px] text-[rgba(255,255,255,0.54)]'>Birthday</p>
-                  <p className='font-main font-normal lg:text-[16px] text-[11px] text-white'>1 July, 2004</p>
-                </div>
-              </div> */}
                 <div className="flex items-center lg:pl-[80px] mt-5">
                   <div className="lg:h-10 lg:w-10 h-6 w-6  rounded-[5px] border-1 border-[#F8D568] flex items-center justify-center ">
                     <MdLocationPin className='text-[#F8D568] lg:text-[18px] text-[10px]' />

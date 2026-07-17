@@ -53,13 +53,14 @@
 import React, { useState } from 'react'
 import Container from '../components/Container'
 import { HiOutlineUser, HiOutlineMail } from 'react-icons/hi'
-import { HiOutlineDocumentText, HiOutlinePencil } from 'react-icons/hi2'
-import { MdOutlinePhone, MdOutlineAccessTime } from 'react-icons/md'
+import { HiOutlineDevicePhoneMobile, HiOutlineDocumentText, HiOutlinePencil } from 'react-icons/hi2'
+import { MdOutlinePhone, MdOutlineAccessTime, MdOutlineEmail, MdLocationPin } from 'react-icons/md'
 import { CiLocationOn } from 'react-icons/ci'
 import { TbBrandLinkedin } from 'react-icons/tb'
 import { FaFacebook } from 'react-icons/fa'
 import { IoPaperPlaneOutline } from 'react-icons/io5'
 import { Globe } from '@/components/ui/globe'
+import { Link } from 'react-router-dom'
 
 
 
@@ -71,10 +72,41 @@ const Contact = () => {
         <div className="w-2/5">
           <div className="">
             <h5 className='lg:text-[16px] text-amber-300 lg:pb-3 font-main font-normal'>LET'S CONNECT</h5>
-            <h3 className='lg:text-[16px] text-amber-300 lg:pb-3 font-main font-normal'>Get In Touch<span className='text-amber-300'>.</span></h3>
-            <p>Have a project in mind or want to work
+            <h3 className='lg:text-[30px] text-white lg:pb-3 font-main font-bold'>Get In Touch<span className='text-amber-300'>.</span></h3>
+            <p className='lg:text-[16px] text-amber-300 font-main font-normal'>Have a project in mind or want to work
               together? Feel free to send me a message.
               I'll get back to you as soon as possible!</p>
+            <div className="pt-5 lg:pt-6">
+              <div className="flex items-center lg:justify-center">
+                <div className="lg:h-10 lg:w-10 h-6 w-6 rounded-[5px] border-1 border-[#F8D568] flex items-center justify-center ">
+                  <MdOutlineEmail className='text-[#F8D568] lg:text-[18px] text-[10px]' />
+                </div>
+                <div className="lg:pl-3 pl-2">
+                  <p className='font-main font-normal lg:text-[14px] text-[10px] text-[rgba(255,255,255,0.54)]'>Email</p>
+                  <Link to="https://sejansorker@gmail.com"><p className='font-main font-normal lg:text-[16px] text-[12px] text-white'>sejansorker@gmail.com...</p></Link>
+                </div>
+              </div>
+              <div className="flex items-center lg:pl-[80px] lg:my-5 my-3">
+                <div className="lg:h-10 lg:w-10 h-6 w-6  rounded-[5px] border-1 border-[#F8D568] flex items-center justify-center ">
+                  <HiOutlineDevicePhoneMobile className='text-[#F8D568] lg:text-[18px] text-[10px]' />
+                </div>
+                <div className="lg:pl-3 pl-2">
+                  <p className='font-main font-normal lg:text-[15px] text-[10px] text-[rgba(255,255,255,0.54)]'>Phone</p>
+                  <Link to="">
+                    <p className='font-main font-normal lg:text-[16px] text-[11px] text-white'>+8801780519010</p>
+                  </Link>
+                </div>
+              </div>
+              <div className="flex items-center lg:pl-[80px] mt-5">
+                <div className="lg:h-10 lg:w-10 h-6 w-6  rounded-[5px] border-1 border-[#F8D568] flex items-center justify-center ">
+                  <MdLocationPin className='text-[#F8D568] lg:text-[18px] text-[10px]' />
+                </div>
+                <div className="lg:pl-3 pl-2">
+                  <p className='font-main font-normal lg:text-[15px] text-[10px] text-[rgba(255,255,255,0.54)]'>Location</p>
+                  <p className='font-main font-normal lg:text-[16px] text-[11px] text-white'>Dhaka, Bangladesh</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div className="w-2/5"></div>
