@@ -61,23 +61,24 @@ import { FaFacebook } from 'react-icons/fa'
 import { IoPaperPlaneOutline } from 'react-icons/io5'
 import { Globe } from '@/components/ui/globe'
 import { Link } from 'react-router-dom'
-
+import Map from "../assets/bgremove.png"
 
 
 const Contact = () => {
 
   return (
     <>
-      <div className="flex lg:px-10 px-5 my-10">
-        <div className="w-2/5">
+      <div className=" lg:px-10 px-5 lg:py-10 ">
+        <div className="flex justify-between border-b-1 border-amber-500 lg:pb-10">
+          <div className="w-2/5">
           <div className="">
             <h5 className='lg:text-[16px] text-amber-300 lg:pb-3 font-main font-normal'>LET'S CONNECT</h5>
             <h3 className='lg:text-[30px] text-white lg:pb-3 font-main font-bold'>Get In Touch<span className='text-amber-300'>.</span></h3>
-            <p className='lg:text-[16px] text-amber-300 font-main font-normal'>Have a project in mind or want to work
+            <p className='lg:text-[16px] text-white font-main font-normal'>Have a project in mind or want to work
               together? Feel free to send me a message.
               I'll get back to you as soon as possible!</p>
             <div className="pt-5 lg:pt-6">
-              <div className="flex items-center lg:justify-center">
+              <div className="flex items-center border-b-1 border-[rgba(255,255,255,0.38)] pb-4">
                 <div className="lg:h-10 lg:w-10 h-6 w-6 rounded-[5px] border-1 border-[#F8D568] flex items-center justify-center ">
                   <MdOutlineEmail className='text-[#F8D568] lg:text-[18px] text-[10px]' />
                 </div>
@@ -86,7 +87,7 @@ const Contact = () => {
                   <Link to="https://sejansorker@gmail.com"><p className='font-main font-normal lg:text-[16px] text-[12px] text-white'>sejansorker@gmail.com...</p></Link>
                 </div>
               </div>
-              <div className="flex items-center lg:pl-[80px] lg:my-5 my-3">
+              <div className="flex items-center lg:my-5 my-3 border-b-1 border-[rgba(255,255,255,0.38)] pb-4">
                 <div className="lg:h-10 lg:w-10 h-6 w-6  rounded-[5px] border-1 border-[#F8D568] flex items-center justify-center ">
                   <HiOutlineDevicePhoneMobile className='text-[#F8D568] lg:text-[18px] text-[10px]' />
                 </div>
@@ -97,7 +98,7 @@ const Contact = () => {
                   </Link>
                 </div>
               </div>
-              <div className="flex items-center lg:pl-[80px] mt-5">
+              <div className="flex items-center mt-5 ">
                 <div className="lg:h-10 lg:w-10 h-6 w-6  rounded-[5px] border-1 border-[#F8D568] flex items-center justify-center ">
                   <MdLocationPin className='text-[#F8D568] lg:text-[18px] text-[10px]' />
                 </div>
@@ -107,9 +108,13 @@ const Contact = () => {
                 </div>
               </div>
             </div>
+            <div className="mt-8">
+              <img src={Map} className=' w-full rounded-[30px] border-1 border-[rgba(255,255,255,0.38)]' alt="" />
+            </div>
           </div>
         </div>
-        <div className="w-2/5"></div>
+        <div className="w-3/5"></div>
+        </div>
       </div>
     </>
   )
