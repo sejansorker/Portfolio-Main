@@ -113,7 +113,15 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="w-3/5"></div>
+        <div className="w-3/5">
+        <div className="">
+          <h4 className='lg:text-[24px] font-main font-semibold text-white'>Send Me A Message</h4>
+          <form className='py-5'>
+            <input className='rounded-[8px] py-2 pl-2 lg:w-[49%] text-[14px] font-main font-medium bg-white text-black outline-0' type="text" placeholder='Your Name' />
+          <input className='rounded-[8px] py-2 pl-2 lg:w-[49%] text-[14px] font-main font-medium bg-white text-black outline-0 lg:ml-2' type="email" placeholder='Your Email' />
+          </form>
+        </div>
+        </div>
         </div>
         <div className="lg:mt-10 text-center w-1/3 mx-auto">
           <h4 className='text-[18px] text-white font-main font-medium relative after:absolute after:top-3 after:-right-13 after:h-[1px] after:w-[80px] after:bg-amber-500   before:absolute before:top-3 before:-left-13 before:h-[1px] before:w-[80px] before:bg-amber-500 '>Or Contact Me On</h4>
