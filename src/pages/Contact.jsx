@@ -68,60 +68,63 @@ const Contact = () => {
 
   return (
     <>
-      <div className=" lg:px-10 px-5 lg:py-10 ">
+      <div className=" lg:pl-10 lg:pr-5 px-5 lg:py-10 ">
         <div className="flex justify-between border-b-1 border-amber-500 lg:pb-10">
           <div className="w-2/5">
-          <div className="">
-            <h5 className='lg:text-[16px] text-amber-300 lg:pb-3 font-main font-normal'>LET'S CONNECT</h5>
-            <h3 className='lg:text-[30px] text-white lg:pb-3 font-main font-bold'>Get In Touch<span className='text-amber-300'>.</span></h3>
-            <p className='lg:text-[16px] text-white font-main font-normal'>Have a project in mind or want to work
-              together? Feel free to send me a message.
-              I'll get back to you as soon as possible!</p>
-            <div className="pt-5 lg:pt-6">
-              <div className="flex items-center border-b-1 border-[rgba(255,255,255,0.38)] pb-4">
-                <div className="lg:h-10 lg:w-10 h-6 w-6 rounded-[5px] border-1 border-[#F8D568] flex items-center justify-center ">
-                  <MdOutlineEmail className='text-[#F8D568] lg:text-[18px] text-[10px]' />
+            <div className="lg:pr-8">
+              <h5 className='lg:text-[16px] text-amber-300 lg:pb-3 font-main font-normal'>LET'S CONNECT</h5>
+              <h3 className='lg:text-[30px] text-white lg:pb-3 font-main font-bold'>Get In Touch<span className='text-amber-300'>.</span></h3>
+              <p className='lg:text-[16px] text-white font-main font-normal '>Have a project in mind or want to work
+                together? Feel free to send me a message.
+                I'll get back to you as soon as possible!</p>
+              <div className="pt-5 lg:pt-6">
+                <div className="flex items-center border-b-1 border-[rgba(255,255,255,0.38)] pb-4">
+                  <div className="lg:h-10 lg:w-10 h-6 w-6 rounded-[5px] border-1 border-[#F8D568] flex items-center justify-center ">
+                    <MdOutlineEmail className='text-[#F8D568] lg:text-[18px] text-[10px]' />
+                  </div>
+                  <div className="lg:pl-3 pl-2">
+                    <p className='font-main font-normal lg:text-[14px] text-[10px] text-[rgba(255,255,255,0.54)]'>Email</p>
+                    <Link to="https://sejansorker@gmail.com"><p className='font-main font-normal lg:text-[16px] text-[12px] text-white'>sejansorker@gmail.com...</p></Link>
+                  </div>
                 </div>
-                <div className="lg:pl-3 pl-2">
-                  <p className='font-main font-normal lg:text-[14px] text-[10px] text-[rgba(255,255,255,0.54)]'>Email</p>
-                  <Link to="https://sejansorker@gmail.com"><p className='font-main font-normal lg:text-[16px] text-[12px] text-white'>sejansorker@gmail.com...</p></Link>
+                <div className="flex items-center lg:my-5 my-3 border-b-1 border-[rgba(255,255,255,0.38)] pb-4">
+                  <div className="lg:h-10 lg:w-10 h-6 w-6  rounded-[5px] border-1 border-[#F8D568] flex items-center justify-center ">
+                    <HiOutlineDevicePhoneMobile className='text-[#F8D568] lg:text-[18px] text-[10px]' />
+                  </div>
+                  <div className="lg:pl-3 pl-2">
+                    <p className='font-main font-normal lg:text-[15px] text-[10px] text-[rgba(255,255,255,0.54)]'>Phone</p>
+                    <Link to="">
+                      <p className='font-main font-normal lg:text-[16px] text-[11px] text-white'>+8801780519010</p>
+                    </Link>
+                  </div>
+                </div>
+                <div className="flex items-center mt-5 ">
+                  <div className="lg:h-10 lg:w-10 h-6 w-6  rounded-[5px] border-1 border-[#F8D568] flex items-center justify-center ">
+                    <MdLocationPin className='text-[#F8D568] lg:text-[18px] text-[10px]' />
+                  </div>
+                  <div className="lg:pl-3 pl-2">
+                    <p className='font-main font-normal lg:text-[15px] text-[10px] text-[rgba(255,255,255,0.54)]'>Location</p>
+                    <p className='font-main font-normal lg:text-[16px] text-[11px] text-white'>Dhaka, Bangladesh</p>
+                  </div>
                 </div>
               </div>
-              <div className="flex items-center lg:my-5 my-3 border-b-1 border-[rgba(255,255,255,0.38)] pb-4">
-                <div className="lg:h-10 lg:w-10 h-6 w-6  rounded-[5px] border-1 border-[#F8D568] flex items-center justify-center ">
-                  <HiOutlineDevicePhoneMobile className='text-[#F8D568] lg:text-[18px] text-[10px]' />
-                </div>
-                <div className="lg:pl-3 pl-2">
-                  <p className='font-main font-normal lg:text-[15px] text-[10px] text-[rgba(255,255,255,0.54)]'>Phone</p>
-                  <Link to="">
-                    <p className='font-main font-normal lg:text-[16px] text-[11px] text-white'>+8801780519010</p>
-                  </Link>
-                </div>
+              <div className="mt-8">
+                <img src={Map} className=' w-full rounded-[30px] border-1 border-[rgba(255,255,255,0.38)]' alt="" />
               </div>
-              <div className="flex items-center mt-5 ">
-                <div className="lg:h-10 lg:w-10 h-6 w-6  rounded-[5px] border-1 border-[#F8D568] flex items-center justify-center ">
-                  <MdLocationPin className='text-[#F8D568] lg:text-[18px] text-[10px]' />
-                </div>
-                <div className="lg:pl-3 pl-2">
-                  <p className='font-main font-normal lg:text-[15px] text-[10px] text-[rgba(255,255,255,0.54)]'>Location</p>
-                  <p className='font-main font-normal lg:text-[16px] text-[11px] text-white'>Dhaka, Bangladesh</p>
-                </div>
-              </div>
-            </div>
-            <div className="mt-8">
-              <img src={Map} className=' w-full rounded-[30px] border-1 border-[rgba(255,255,255,0.38)]' alt="" />
             </div>
           </div>
-        </div>
-        <div className="w-3/5">
-        <div className="">
-          <h4 className='lg:text-[24px] font-main font-semibold text-white'>Send Me A Message</h4>
-          <form className='py-5'>
-            <input className='rounded-[8px] py-2 pl-2 lg:w-[49%] text-[14px] font-main font-medium bg-white text-black outline-0' type="text" placeholder='Your Name' />
-          <input className='rounded-[8px] py-2 pl-2 lg:w-[49%] text-[14px] font-main font-medium bg-white text-black outline-0 lg:ml-2' type="email" placeholder='Your Email' />
-          </form>
-        </div>
-        </div>
+          <div className="w-3/5">
+            <div className="">
+              <h4 className='lg:text-[24px] font-main font-semibold text-white'>Send Me A Message</h4>
+              <form className='py-5'>
+                <input className='rounded-[8px] py-3 pl-2 lg:w-[49%] text-[14px] font-main font-medium bg-white text-black outline-0' type="text" placeholder='Your Name' />
+                <input className='rounded-[8px] py-3 pl-2 lg:w-[49%] text-[14px] font-main font-medium bg-white text-black outline-0 lg:ml-2' type="email" placeholder='Your Email' />
+                <input type="subject" placeholder='Subject (Optinal)' className='rounded-[8px] py-3 pl-2  text-[14px] font-main font-medium bg-white text-black outline-0 lg:mt-5 w-full' />
+                <textarea name="" id="" placeholder='Message' className='rounded-[8px]  pl-2  text-[14px] font-main font-medium bg-white text-black outline-0 lg:mt-5 w-full h-50 lg:py-3'></textarea>
+                <button className='py-4 px-10 bg-amber-500 w-full text-white rounded-2xl lg:mt-6'>Send Message</button>
+              </form>
+            </div>
+          </div>
         </div>
         <div className="lg:mt-10 text-center w-1/3 mx-auto">
           <h4 className='text-[18px] text-white font-main font-medium relative after:absolute after:top-3 after:-right-13 after:h-[1px] after:w-[80px] after:bg-amber-500   before:absolute before:top-3 before:-left-13 before:h-[1px] before:w-[80px] before:bg-amber-500 '>Or Contact Me On</h4>
